@@ -1,0 +1,12 @@
+.idea
+*.log
+*.tmp
+*.lock
+*.txt
+*.xml
+*.csv
+*.DS_Store
+*.doc
+*.docx
+*.xls
+*.xlsx
