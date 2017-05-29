@@ -50,12 +50,9 @@
 
 	<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
 	<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-	
-	
 
 
-	
-	
+
 </head>
 
 <body class="t-body" style="margin:0;">
@@ -275,7 +272,7 @@
 					<div class="feedback-form">
 
 
-						<form action="send2.php" method="post">
+						<form name="HANDBOOK_DISCOUNT_FORM">
       						<div class="form-row">
 								<div class="indicates-required" style="margin-bottom: 20px;font-size: 0.8em;">
 									<span class="asterisk">*</span> 
@@ -288,7 +285,7 @@
 								</div>
 										
 								<div class="inpute-field">
-									<input type="text" name="name" placeholder="" required id="input1">
+									<input type="text" name="name" placeholder="" id="input1">
 								</div>
 							</div>
 							<div class="form-row">
@@ -296,7 +293,7 @@
 									<label for="input2">Ваш е-мейл  <span class="asterisk">*</span></label>
 								</div>
 								<div class="inpute-field">
-									<input type="text" name="email" placeholder="" required id="input2">
+									<input type="text" name="email" placeholder="" id="input2">
 								</div>
 							</div>
 
@@ -310,7 +307,8 @@
 										
 							<div class="form-row">
 								<div class="promo-button">
-									<input type="submit" value="Получить промо-код" class="btn btn-default close-button" style="margin-top: 15px;width: auto;">
+									<input value="Получить промо-код" type="button" id="handbook-discount-form-btn" class="btn btn-default close-button" style="margin-top: 15px;width: auto;">
+
 								</div>
 							</div>
 						</form>
@@ -811,7 +809,6 @@ style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" tit
 <!--/allrecords-->
 
 
-<script src="js/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="js/slick.min.js"></script>
 
 <script type="text/javascript">
@@ -844,6 +841,12 @@ style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" tit
   ]
 });    });
 </script>
+<script type="text/javascript" src="/js/script.js"></script>
 
+<div id="modal-window" class="modal-window">
+    <h2 class="modal-window__title"></h2>
+    <p class="modal-window__text">
+    </p>
+</div>
 </body>
 </html>

@@ -1082,7 +1082,22 @@ margin-top: 10px;
 	text-align: center;
 	margin-top: 10px;
 }
-	
+
+/******************************** Модальные окна *************************************/
+
+.modal-window {
+	display: none;
+	min-width: 600px;
+	min-height: 400px;
+}
+
+.modal-window__title {
+
+}
+
+.modal-window__text {
+
+}
 
 /******************************** Медиа-запросы **************************************/
 
